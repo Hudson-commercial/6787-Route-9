@@ -43,7 +43,18 @@ height: 100%;
 
 /* Background images are set within the HTML using inline CSS, not here */
 p, td, a, th, li {
-font-size: 1.2em;
+font-size: 1.5em;
+}
+	  @media only screen and (max-width: 768px) {
+  b {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  b {
+    font-size: 12px;
+  }
 }
 	  
 .number {
